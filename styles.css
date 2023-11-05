@@ -1,0 +1,778 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* Headings  */
+
+h1{
+    
+    size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+p{
+    color: #f7fcff;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+#title{
+    background-image: url("images/mainBackgorund.jpg");
+    max-width: 100%;
+}
+/* Navbar */
+
+nav{
+    padding: 1rem 10%; 
+}
+
+.navbar-nav{
+    --bs-nav-link-color: #000;
+}
+
+.nav-link{
+    transition: 400ms;
+}
+
+.nav-link:hover{
+    color: #f7f7f7;
+}
+
+.container-fluid{
+    padding: 1rem 5rem ;
+}
+
+.navbar-brand{
+    padding-right: 3%;
+    font-size: 1.2rem;
+    color: #f7fcff;
+    
+}
+
+
+nav li,
+nav button{
+    font-size: .8rem;
+    text-transform: uppercase;
+    color: #f7fcff;
+}
+
+nav button:hover{
+    transition: 300ms;
+    background-color: #f7f7f7;
+    color: #000;
+    border: none;
+}
+
+.btn1, .btn2, .btn3{
+    background-color: transparent; /* Green */
+    border: solid;
+    color: #f7fcff;
+    text-align: center;
+    text-decoration: none;
+    font-size: .7rem;
+    padding: .5rem .7rem;
+    margin: 0 .6rem;
+    border-radius: .5rem;
+}
+
+.btn2{
+    padding: .5rem 1rem;
+}
+
+nav{
+    justify-content: space-between;
+}
+
+/* Title */
+
+.landPage{
+    text-align: center;
+    padding: 3%;
+    margin-top: 2%;
+}
+
+
+.context{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.2rem;
+    color: #f7fcff;
+    line-height: 3rem;
+    margin: 10% 2%;
+}
+
+.backgroundImage{
+    width: 90%;
+}
+
+#title .row{
+    margin: 3%;
+}
+
+/* Pricing */
+
+.card{
+    position: relative;
+    left: 15%;
+    width: 70%;  
+    padding: 3%;
+}
+
+
+.buttons {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin: 10px 0;
+    margin-bottom: 1.5rem;
+}
+
+.btn span{
+    font-size: .5rem;
+}
+
+.buttons .btn {
+    padding: .9rem 0.4rem;
+    margin: .4rem 0.3rem;
+    border-radius: 5px;
+    background-color: #9b9b94;
+    color: #f7fcff;
+    cursor: pointer;
+    transition: 300ms;
+    text-align: center;
+}
+
+.buttons .btn:hover {
+    background-color: #dfdfd7;
+}
+
+.buttons .custom {
+    background-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #9b9b94;
+    color: #9b9b94;
+    text-align: center;
+    width: 200%;
+}
+
+.sponsor{
+    padding: .9rem 0.4rem;
+    margin: .7rem 0.3rem;
+    border-radius: 5px;
+    background-color: #9b9b94;
+    color: #f7fcff;
+    cursor: pointer;
+    transition: 300ms;
+    text-align: center;
+}
+
+.give{
+    padding: .9rem 0.4rem;
+    margin: .7rem 0.3rem;
+    border-radius: 5px;
+    background-color: #035;
+    color: #f7fcff;
+    cursor: pointer;
+    transition: 300ms;
+    text-align: center;
+}
+
+.sponsor:hover{
+    background-color: #dfdfd7;
+}
+
+.give:hover{
+    background-color: #037;
+    color: #f7fcff
+    ;
+}
+
+.buttons .custom:hover{
+    background-color: #fff;
+}
+
+.buttons .custom:focus {
+    background-color: #fff;
+    border-style: solid;
+    border-color: #036;
+    border-width: 1px;
+    color: #9b9b94;
+}
+
+.btn:focus {
+    background-color: #036;
+    color: #f7fcff;
+}
+
+.card-footer{
+    padding-top: 5%
+}
+.card-footer p{
+    color: #9b9b94;
+}
+
+
+
+/* Work */
+
+.OurWork{
+    text-align: center;
+}
+
+.littleText{
+    padding: 2% 20%;
+    font-size: 12px;
+    color: #77a8bb;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .0625rem;
+}
+
+.OurWork h3{
+    padding: 0% 27%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 190%;
+    font-weight: 600;
+    color: #000;
+    margin: 0;
+}
+
+.OurWork .talkContent{
+    padding: 3% 25% 0;
+    color: #000;
+    font-size: 95%;
+}
+
+.space{
+    padding: 0 18%;
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+}
+
+.OurWork .col-lg-4{
+    margin: 1% 0;
+}
+
+.OurWork .row h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 230%;
+    font-weight: 600;
+    color: #000;
+}
+
+.workImg{
+    width: 60%;
+    margin: 3% 2%;
+}
+
+.workImg1{
+    margin-bottom: 7%;
+}
+
+.workImg2{
+    margin-bottom: 9%;
+}
+
+.workText{
+    color: #000;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.OurWork span img{
+    margin-bottom: 1%;
+    text-align: center;
+    width: 5%;
+}
+
+/* Highlight */
+.highlight{
+    background-color: #fff;
+    margin: 2% 18%;
+    position: absolute;
+    z-index: 10;
+    margin-bottom: 2%;
+    border:0.5px solid;
+    border-color: #9b9b94;
+    border-radius: 5px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.highlight .row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.highlight .row div{
+    text-align: center;
+    padding: 1% 0;
+}
+
+.highlightImg{
+    width: 40%;
+}
+
+.highlightImg1{
+    width: 20%;
+}
+
+.highlightImg2{
+    width: 50%;
+}
+
+.highlight p{
+    color: #000;
+    font-size: 1.2rem;
+    padding: 2% 0 1%;
+    font-weight: bold;
+}
+
+/* Get to Know */
+#GetToKnow{
+    margin-top: 7%;
+    padding: 10% 15%;
+    background-color: rgba(247,252,255);
+}
+
+.sidebside{
+    padding-top: 7%;
+}
+
+.spring{
+    background-color: #fff;
+    text-align: center;
+    padding: 3%;
+    z-index: 100000;
+    border-top: green;
+    border-top-style: solid;
+    border-top-width: 5%;
+    border-radius: 1%;
+    width: 45%;
+    position: absolute;
+    margin-top: 4%;
+    /* margin-right: -100; */
+}
+
+.joinTheSpring{
+    width: 30%;
+    padding: 6% 3% 3%;
+} 
+
+.spring h3,
+.bold{
+    font-weight: 600;
+    margin-bottom: 3%;
+}
+
+.spring p{
+    color: #000;
+}
+
+.italize{
+    font-style: italic;
+}
+.spring1{
+    position: relative;
+}
+
+.springImage{
+    left: 80%;
+    position: relative;
+    width: 140%;
+}
+
+.spring .btn {
+    padding: .7rem 0.8rem;
+    margin: .4rem 0.3rem;
+    border-radius: 5px;
+    background-color: #00ac7f;
+    color: #f7fcff;
+    cursor: pointer;
+    transition: 100ms;
+    text-align: center;
+    font-weight: bold;
+    font-size: 70%;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+}
+
+.spring .btn:hover{
+    background-color: #0ed5a0;
+}
+
+/* Campaign */
+.campaign{
+    margin: 15% 0 0;
+}
+
+.card1{
+    width: 100%;
+    --bs-card-spacer-y: 1rem;
+    --bs-card-spacer-x: 1rem;
+    --bs-card-title-spacer-y: 0.5rem;
+    --bs-card-group-margin: 0.75rem;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: .6px solid #9b9b94;
+    border-radius: 0.375rem;
+}
+
+.card1 .img-fluid{
+    width: 100%;
+    min-height: 100%;
+    align-self: stretch;
+}
+
+.iconText .card-text{
+    color: #037;
+    font-weight: 600;
+    transition: 100ms;
+}
+
+.card-text:hover{
+    color: #000;
+}
+
+
+/* Update */
+#update{
+    position: sticky;
+    text-align: center;
+}
+
+#update h3{
+    max-width: 292.508px;
+    margin: 4% auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+
+#update h4{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.updateText{
+    color: #000;
+    padding: 3% 4%;
+    font-size: 1rem;
+}
+
+#update .row{
+    --bs-gutter-x: 0; 
+    margin: 4%;
+}
+
+.updateImg{
+    width: 77%;
+}
+
+#update .littleText{
+    padding-top: 5%;
+}
+
+.carousel-item{
+    padding: 5% 8%;
+}
+
+/* Footer */
+.footer{
+    margin: 10%;
+}
+
+.email{
+    background-color: #f7f7f7;
+    padding: 3%;
+    border:1px solid #dfdfd7;;
+    border-radius: 5px;
+}
+
+.footer h5{
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.footer h4{
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.footer p{
+    color: #000;
+}
+
+.input-group{
+    flex-flow: row;
+    height: 3rem;
+}
+
+.col-lg-8{
+    margin: auto;
+}
+
+.footer button{
+    padding: 0 1.5rem;
+    border-radius: 5px;
+    background-color: #035;
+    color: #f7fcff;
+    cursor: pointer;
+    transition: 300ms;
+    text-align: center;
+    font-weight: bold;
+    font-size: 85%;
+    letter-spacing: .3rem;
+    text-transform: uppercase;
+}
+
+.footer button:hover{
+    background-color: #037;
+    color: #f7f7f7;
+}
+
+.input-group input::placeholder{
+    color: #9b9b94;
+}
+
+.link{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    justify-content: flex-start;
+}
+
+.link h4{
+    font-size: 1rem;
+}
+
+.link p{
+    color: #9b9b94;
+}
+
+.footer hr{
+    margin: 4% 0;
+}
+
+.fa-brands{
+    font-size: 1.3rem;
+    width: 2rem;
+}
+
+.iconText{
+    margin: 2% 0;
+}
+
+.iconText span{
+    font-size: 2rem;
+    margin: 0 1%;
+}
+
+.iconSpace{
+    justify-content: space-between;
+}
+
+.footer .dropdown{
+    display: flex;
+    justify-content: right;
+}
+
+.footer .dropdown button{
+    padding: .7rem;
+    border-radius: 5px;
+    border: 1px solid #036;
+    background-color: #fff;
+    color: #035;
+    cursor: pointer;
+    text-align: center;
+    font-weight: normal;
+    font-size: 90%;
+    transition: 200ms;
+    letter-spacing: normal;
+    text-transform: capitalize;
+}
+
+.footer .dropdown button:hover{
+    background-color: #fff;
+    color: #037;
+    border: 1px solid #039;
+}
+
+.footer .dropdown button:focus{
+    background-color: #fff;
+    color: #035;
+    border: 1px solid #038;
+}
+
+.footer .dropdown span{
+    font-size: .9rem;
+    padding-right: 3%;
+    margin: 0;
+}
+
+.footer .dropdown-menu .active{
+    background-color: #037;
+}
+
+.footer.dropdown-item{
+    font-size: .8rem;
+    transition: 900ms;
+
+}
+
+.footer .dropdown-item:hover{
+    background-color: #038;
+    color: #fff;
+}
+
+.finalPart p{
+    font-size: .8rem;
+    color: #9b9b94;
+}
+
+.finalPart img{
+    width: 100%;
+}
+
+.end{
+    margin-top: 4%;
+}
+
+.end p{
+    font-size: .9rem;
+    color: #9b9b94;
+}
+
+@media (max-width:1300px){
+    .campaign{
+        margin: 20% 0 0;
+    }
+    .campaign .card-title{
+        font-size: 1rem;
+    }
+    .campaign .card-text{
+        font-size: .8rem;
+    }
+}
+
+@media (max-width:1190px){
+    .spring{
+        position: static;
+        z-index: 0;
+    }
+    .spring1{
+        position: static;
+    }
+    .springImage{
+        position: static;
+        width: 100%;
+    }
+    .sidebyside{
+        align-items: center;
+        flex-direction: column;
+    }
+    .sidebyside .col-lg-6{
+        width: 70%;
+
+    }
+    .campaign{
+        margin: 10% 0 0;
+    }
+    #GetToKnow{
+        padding: 10%;
+    }
+}
+
+@media (max-width:992px){
+    .sidebyside{
+        margin-top: 10%;
+    }
+    .spring1{
+        padding-top: 10%;
+    }
+    .OurWork h3,
+    .OurWork .talkContent{
+        padding: 2% 15%;
+    }
+    .campaign .card-title{
+        font-size: 1.4rem;
+    }
+    .campaign .card-text{
+        font-size: 1.1rem;
+    }
+    .workImg{
+        width: 30%;
+        margin: 1.5% 1%;
+    }
+    .space span img{
+        width: 2%;
+    }
+    
+}
+
+@media (max-width: 778px){
+    #title .row{
+        margin: 1%;
+    }
+    .card{
+        position: static;
+        width: 95%;
+    }
+    .OurWork h3,
+    .OurWork .talkContent{
+        padding: 3%;
+    }
+    .sidebyside .col-lg-6{
+        width: 100%;
+    }
+    .campaign .card-text{
+        font-size: .7rem;
+    }
+    .campaign .card-title{
+        font-size: .9rem;
+    }
+    #GetToKnow{
+        padding: 10% 15%;
+    }
+    .form-control,
+    .footer .email .btn{
+        border-radius: 0;
+    }
+    .iconSpace,
+    .finalPart,
+    .end{
+        text-align: center;
+    }
+    .footer button{
+        padding: .7rem;
+    }
+    .link{
+        margin-top: 5%;
+    }
+    .footer .dropdown{
+        justify-content: center;
+        margin-bottom: 4%;
+    }
+}
+
+@media (max-width: 585px){
+    #GetToKnow{
+        padding: 15% 5%;
+    }
+    .campaign .card-text{
+        margin-bottom: 0%;
+    }
+}
